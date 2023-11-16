@@ -16,17 +16,17 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
+.header nav {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+.header nav .seo {
   display: inline;
   color: #d9dcd6;
 }
 
-.header h2 {
+.header h1 {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -34,11 +34,11 @@ body {
   font-size: 20px;
 }
 
-.header h2 ul {
+.header h1 ul {
   list-style-type: none;
 }
 
-.header h2 ul li {
+.header h1 ul li {
   display: inline-block;
   margin-left: 25px;
 }
