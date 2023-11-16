@@ -11,8 +11,8 @@ Also, I changed title to more descriptive version.
 
 ## Table of Contets
 
-- [Screenshots](#screenshot)
-- [Links](#link)
+- [Screenshots](#screenshots)
+- [Links](#links)
 
 ## Screenshots
 
