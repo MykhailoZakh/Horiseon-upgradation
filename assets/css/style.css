@@ -19,15 +19,9 @@ body {
   color: #ffffff;
 }
 
-/*Adjusting position for all text in header*/
 .header nav {
   display: inline-block;
   font-size: 48px;
-}
-
-.header nav .seo {
-  display: inline;
-  color: #d9dcd6;
 }
 
 .header h1 {
@@ -36,6 +30,11 @@ body {
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+}
+
+.header nav .seo {
+  display: inline;
+  color: #d9dcd6;
 }
 
 .header h1 ul {
