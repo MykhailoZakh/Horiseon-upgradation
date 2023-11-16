@@ -1,13 +1,16 @@
+/*Adding behavior to box sizing */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*Adding background color to all body*/
 body {
   background-color: #d9dcd6;
 }
 
+/*Specify the font familt for text in header + adding colors*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,6 +19,7 @@ body {
   color: #ffffff;
 }
 
+/*Adjusting position for all text in header*/
 .header nav {
   display: inline-block;
   font-size: 48px;
@@ -43,15 +47,18 @@ body {
   margin-left: 25px;
 }
 
+/*Remoivng underlining and adding new color to Anchor elements*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/*Changing size of the text*/
 p {
   font-size: 16px;
 }
 
+/*Adding background picture*/
 .hero {
   height: 800px;
   width: 100%;
@@ -77,6 +84,7 @@ p {
   margin-left: 20px;
 }
 
+/*Positioning Aside Article*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -88,54 +96,23 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Ajusting position in aside article*/
+.benefit-positioning {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-positioning h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+.benefit-positioning img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+/*Formating article, text and positioning*/
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -163,6 +140,7 @@ p {
   color: #ffffff;
 }
 
+/*Adding max height to the image inside article*/
 .search-engine-optimization img {
   max-height: 200px;
 }
@@ -175,6 +153,7 @@ p {
   max-height: 200px;
 }
 
+/*Ajusting margin and font size for header of article*/
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -190,6 +169,7 @@ p {
   font-size: 36px;
 }
 
+/*Positioning and formating text*/
 .footer {
   padding: 30px;
   clear: both;
@@ -198,6 +178,7 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+/*Adding font size for footer header*/
+.footer h4 {
   font-size: 20px;
 }
